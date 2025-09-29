@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AS Weather App - Terms and Conditions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="icon" type="image/png"  href="https://iili.io/K1rcSa9.md.jpg"  />
     <style>
         * {
             margin: 0;
@@ -15,8 +14,8 @@
         }
         
         body {
-            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
-            color: #fff;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #333;
             min-height: 100vh;
             padding: 20px;
             line-height: 1.6;
@@ -25,38 +24,35 @@
         .container {
             max-width: 1000px;
             margin: 0 auto;
-            background: rgba(0, 0, 0, 0.4);
+            background: white;
             border-radius: 15px;
             padding: 30px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
         }
         
         header {
             text-align: center;
             padding: 20px 0;
             margin-bottom: 30px;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 2px solid #e6f0ff;
         }
         
         h1 {
             font-size: 2.5rem;
             margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            color: #1e3c72;
         }
         
         .subtitle {
             font-size: 1.2rem;
-            opacity: 0.9;
+            color: #2a5298;
+            font-weight: 500;
         }
-    .as{
-        color:white;
-    }
         
         .back-btn {
             display: inline-flex;
             align-items: center;
-            background: rgba(255, 255, 255, 0.2);
+            background: #2a5298;
             color: white;
             text-decoration: none;
             padding: 10px 20px;
@@ -66,7 +62,7 @@
         }
         
         .back-btn:hover {
-            background: rgba(255, 255, 255, 0.3);
+            background: #1e3c72;
             transform: translateY(-2px);
         }
         
@@ -81,28 +77,32 @@
         }
         
         .terms-content::-webkit-scrollbar-track {
-            background: rgba(255, 255, 255, 0.1);
+            background: #e6f0ff;
             border-radius: 10px;
         }
         
         .terms-content::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.3);
+            background: #2a5298;
             border-radius: 10px;
         }
         
         h2 {
             font-size: 1.8rem;
             margin: 25px 0 15px;
-            color: #fdbb2d;
+            color: #1e3c72;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e6f0ff;
         }
         
         h3 {
             font-size: 1.4rem;
             margin: 20px 0 10px;
+            color: #2a5298;
         }
         
         p {
             margin-bottom: 15px;
+            color: #444;
         }
         
         ul {
@@ -112,25 +112,26 @@
         
         li {
             margin-bottom: 8px;
+            color: #444;
         }
         
         .highlight {
-            background: rgba(253, 187, 45, 0.2);
+            background: #e6f0ff;
             padding: 15px;
             border-radius: 8px;
             margin: 15px 0;
-            border-left: 4px solid #fdbb2d;
+            border-left: 4px solid #2a5298;
         }
         
         .accept-section {
             text-align: center;
             margin-top: 30px;
             padding-top: 20px;
-            border-top: 2px solid rgba(255, 255, 255, 0.2);
+            border-top: 2px solid #e6f0ff;
         }
         
         .accept-btn {
-            background: linear-gradient(to right, #fdbb2d, #b21f1f);
+            background: linear-gradient(to right, #1e3c72, #2a5298);
             color: white;
             border: none;
             padding: 12px 30px;
@@ -138,21 +139,36 @@
             border-radius: 30px;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(30, 60, 114, 0.3);
         }
         
         .accept-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 6px 20px rgba(30, 60, 114, 0.4);
         }
         
         footer {
             text-align: center;
             margin-top: 30px;
             padding-top: 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid #e6f0ff;
             font-size: 0.9rem;
-            opacity: 0.8;
+            color: #666;
+        }
+        
+        a {
+            color: #2a5298;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        a:hover {
+            color: #1e3c72;
+            text-decoration: underline;
+        }
+        
+        strong {
+            color: #1e3c72;
         }
         
         @media (max-width: 768px) {
@@ -172,15 +188,13 @@
 </head>
 <body>
     <div class="container">
-       
-        
         <header>
             <h1>AS Weather App</h1>
             <p class="subtitle">Terms and Conditions</p>
         </header>
         
         <div class="terms-content">
-            <p><strong>Last Updated: September 28, 2025</strong></p>
+            <p><strong>Last Updated: September 27, 2023</strong></p>
             
             <p>Welcome to our Weather App. These Terms and Conditions govern your use of our application and services. By accessing or using our Weather App, you agree to be bound by these Terms.</p>
             
@@ -233,7 +247,7 @@
             <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which the app developer is based, without regard to its conflict of law provisions.</p>
             
             <h2>13. Contact Information</h2>
-            <p>If you have any questions about these Terms and Conditions, please contact us at: <a href="mailto:asweatherapp@gmail.com" class="as">asweatherapp@gmail.com</a></p>
+            <p>If you have any questions about these Terms and Conditions, please contact us at: <a href="mailto:asweatherapp@gmail.com">asweatherapp@gmail.com</a></p>
         </div>
         
         <div class="accept-section">
@@ -242,7 +256,7 @@
         </div>
         
         <footer>
-            <p>AS Weather  &copy; 2025. All rights reserved.</p>
+            <p>AS Weather &copy; 2025. All rights reserved.</p>
         </footer>
     </div>
 
@@ -252,7 +266,7 @@
             alert('Thank you for accepting our Terms and Conditions. You may now continue to use the Weather App.');
             // In a real app, you would set a cookie or update user preferences here
             // Then redirect to the main app
-            window.location.href = 'index.html';
+            window.location.href = 'https://asweather.github.io/';
         });
         
         // Add smooth scrolling for anchor links
